@@ -154,6 +154,14 @@
     });
   });
 
+
+  // star ratings (SVG, no emoji)
+  document.querySelectorAll('.stars').forEach(function(s){
+    var n=parseInt(s.dataset.n||'5',10);
+    var svg='<svg viewBox="0 0 20 20" width="15" height="15" fill="currentColor" style="display:inline-block;margin-right:2px;vertical-align:-1px"><path d="M10 1.6l2.6 5.27 5.82.85-4.21 4.1.99 5.79L10 14.88 4.8 17.61l.99-5.79L1.58 7.72l5.82-.85z"/></svg>';
+    s.innerHTML=svg.repeat(n);
+  });
+
   // smooth anchor
   document.querySelectorAll('a[href^="#"]').forEach(function(a){
     a.addEventListener('click', function(e){ var t=document.querySelector(this.getAttribute('href'));
