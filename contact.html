@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>門市・預約 — 木序咖啡 MUXU COFFEE</title>
+<meta name="description" content="木序咖啡門市資訊與線上預約。地址：台北市大同區赤峰街；營業時間每日 09:00–20:00。歡迎預約內用座位、洽詢咖啡豆團購與企業禮盒。">
+<meta name="keywords" content="木序咖啡地址,赤峰街咖啡,咖啡館訂位,咖啡豆團購,台北咖啡預約">
+<meta property="og:title" content="門市・預約 — 木序咖啡 MUXU COFFEE">
+<meta property="og:description" content="台北赤峰街・每日 09:00–20:00，歡迎線上預約內用座位。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://izzo24.github.io/muxu-coffee/contact.html">
+<meta property="og:image" content="https://izzo24.github.io/muxu-coffee/images/interior.webp">
+<link rel="canonical" href="https://izzo24.github.io/muxu-coffee/contact.html">
+<link rel="icon" type="image/svg+xml" href="./logos/muxu-coffee-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="page-loader"><div class="ring"></div></div>
+<div id="nav-mount"></div>
+
+<section class="page-banner">
+  <div class="pb-bg"><img src="./images/interior.webp" alt="木序咖啡溫暖的內用空間"></div>
+  <div class="container page-banner-inner">
+    <div class="crumb">首頁 / 門市・預約</div>
+    <h1>來坐坐吧</h1>
+    <p>赤峰街上，木頭老窗邊，木序為您留一個位置。線上預約、團購洽詢，都歡迎與我們聯繫。</p>
+  </div>
+</section>
+
+<section>
+  <div class="container contact-grid">
+    <!-- LEFT: info -->
+    <div class="reveal">
+      <span class="eyebrow">門市資訊</span>
+      <h2 style="margin-bottom:24px">木序咖啡・赤峰街本店</h2>
+      <div class="info-card" style="margin-bottom:26px">
+        <div class="info-row"><div class="k">址</div><div><div class="lbl">地址</div><div class="val">台北市大同區赤峰街 33 巷</div></div></div>
+        <div class="info-row"><div class="k">話</div><div><div class="lbl">電話</div><div class="val">02-2700-0000</div></div></div>
+        <div class="info-row"><div class="k">郵</div><div><div class="lbl">Email</div><div class="val">hello@muxucoffee.tw</div></div></div>
+        <div class="info-row"><div class="k">捷</div><div><div class="lbl">交通</div><div class="val">捷運中山站 R 出口，步行約 5 分鐘</div></div></div>
+      </div>
+      <h3 style="margin-bottom:6px;font-size:1.2rem">營業時間</h3>
+      <table class="hours-table">
+        <tr><td>週一 – 週五</td><td>09:00 – 20:00</td></tr>
+        <tr><td>週六 – 週日</td><td>10:00 – 21:00</td></tr>
+        <tr><td>國定假日</td><td>10:00 – 18:00</td></tr>
+      </table>
+      <div class="map-embed" style="margin-top:26px">
+        <iframe title="木序咖啡位置地圖" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=%E8%B5%A4%E5%B3%B0%E8%A1%97%2C%E5%8F%B0%E5%8C%97%E5%B8%82%E5%A4%A7%E5%90%8C%E5%8D%80&output=embed"></iframe>
+      </div>
+    </div>
+
+    <!-- RIGHT: form -->
+    <div class="reveal">
+      <form class="form" data-mock>
+        <h2 style="margin-bottom:6px;font-size:1.7rem">線上預約・洽詢</h2>
+        <p style="margin-bottom:24px;font-size:.95rem">填寫以下表單，木序團隊將於營業時間內主動與您聯繫確認。</p>
+        <div class="form-row">
+          <div class="field"><label for="name">姓名</label><input id="name" name="name" type="text" placeholder="您的稱呼" required></div>
+          <div class="field"><label for="phone">電話</label><input id="phone" name="phone" type="tel" placeholder="聯絡電話" required></div>
+        </div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="example@mail.com"></div>
+        <div class="form-row">
+          <div class="field"><label for="type">需求類型</label>
+            <select id="type" name="type">
+              <option>內用訂位</option>
+              <option>咖啡豆團購</option>
+              <option>企業禮盒洽詢</option>
+              <option>包場・活動</option>
+              <option>其他</option>
+            </select>
+          </div>
+          <div class="field"><label for="people">人數 / 數量</label><input id="people" name="people" type="text" placeholder="例：2 人 / 10 袋"></div>
+        </div>
+        <div class="field"><label for="date">希望日期 / 時段</label><input id="date" name="date" type="text" placeholder="例：6/20 下午 2 點"></div>
+        <div class="field"><label for="msg">備註</label><textarea id="msg" name="msg" placeholder="有任何需求都可以告訴我們，例如靠窗座位、植物奶替換等。"></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">送出預約・洽詢</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div id="footer-mount"></div>
+<script src="./js/shared.js"></script>
+</body>
+</html>

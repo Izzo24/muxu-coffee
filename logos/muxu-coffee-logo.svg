@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="木序咖啡 Muxu Coffee">
+  <defs>
+    <linearGradient id="mxRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B07D4F"/>
+      <stop offset="1" stop-color="#5C4033"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(48 48)">
+    <circle r="38" fill="none" stroke="url(#mxRing)" stroke-width="3"/>
+    <circle r="29" fill="none" stroke="#B07D4F" stroke-width="2" opacity="0.7"/>
+    <circle r="20" fill="none" stroke="#5C4033" stroke-width="2" opacity="0.55"/>
+    <path d="M0 -32 C 13 -16 13 16 0 32 C -13 16 -13 -16 0 -32 Z" fill="#3E2B23"/>
+    <path d="M0 -28 C 6 -14 6 14 0 28" fill="none" stroke="#C9A876" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="50" font-family="'Noto Serif TC', Georgia, serif" font-size="40" font-weight="700" fill="#3E2B23" letter-spacing="2">木序</text>
+  <text x="101" y="74" font-family="'Noto Sans TC', Helvetica, sans-serif" font-size="13" font-weight="600" fill="#B07D4F" letter-spacing="5">MUXU COFFEE</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="木序咖啡">
+  <rect width="96" height="96" rx="22" fill="#3E2B23"/>
+  <g transform="translate(48 48)">
+    <circle r="34" fill="none" stroke="#C9A876" stroke-width="3"/>
+    <circle r="25" fill="none" stroke="#B07D4F" stroke-width="2" opacity="0.75"/>
+    <path d="M0 -28 C 12 -14 12 14 0 28 C -12 14 -12 -14 0 -28 Z" fill="#F5EDE1"/>
+    <path d="M0 -24 C 5 -12 5 12 0 24" fill="none" stroke="#B07D4F" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

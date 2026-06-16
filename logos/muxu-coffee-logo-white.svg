@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 96" role="img" aria-label="木序咖啡 Muxu Coffee">
+  <g transform="translate(48 48)">
+    <circle r="38" fill="none" stroke="#E8D4BC" stroke-width="3"/>
+    <circle r="29" fill="none" stroke="#C9A876" stroke-width="2" opacity="0.8"/>
+    <circle r="20" fill="none" stroke="#E8D4BC" stroke-width="2" opacity="0.5"/>
+    <path d="M0 -32 C 13 -16 13 16 0 32 C -13 16 -13 -16 0 -32 Z" fill="#F5EDE1"/>
+    <path d="M0 -28 C 6 -14 6 14 0 28" fill="none" stroke="#B07D4F" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="50" font-family="'Noto Serif TC', Georgia, serif" font-size="40" font-weight="700" fill="#F5EDE1" letter-spacing="2">木序</text>
+  <text x="101" y="74" font-family="'Noto Sans TC', Helvetica, sans-serif" font-size="13" font-weight="600" fill="#C9A876" letter-spacing="5">MUXU COFFEE</text>
+</svg>
